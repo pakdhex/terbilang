@@ -1,0 +1,15 @@
+{
+    "name": "pakdhe/terbilang",
+    "description": "Membuat Generate terbilang",
+    "autoload": {
+        "psr-4": {
+            "Pakdhe\\Terbilang\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Saiful Amin",
+        "email": "saiful.aminx@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {}
+}
