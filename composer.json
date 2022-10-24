@@ -3,7 +3,7 @@
     "description": "Membuat Generate terbilang",
     "autoload": {
         "psr-4": {
-            "Pakdhe\\Terbilang\\": "src/"
+            "Terbilang\\": "src//Terbilang"
         }
     },
     "authors": [{
