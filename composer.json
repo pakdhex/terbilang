@@ -3,7 +3,7 @@
     "description": "Membuat Generate terbilang",
     "autoload": {
         "psr-4": {
-            "Pakdhe\\Terbilang\\": "src/"
+            "Terbilang\\": "src//Terbilang"
         }
     },
     "authors": [{
@@ -11,5 +11,14 @@
         "email": "saiful.aminx@gmail.com"
     }],
     "minimum-stability": "dev",
-    "require": {}
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RandomPassword\\PasswordServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.8"
+    }
 }
