@@ -11,5 +11,14 @@
         "email": "saiful.aminx@gmail.com"
     }],
     "minimum-stability": "dev",
-    "require": {}
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RandomPassword\\PasswordServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.8"
+    }
 }
