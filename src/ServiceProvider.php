@@ -1,0 +1,20 @@
+<?php
+
+namespace Pakdhe\Terbilang;
+
+use Illuminate\Support\ServiceProvider as BaseServiceProvider;
+
+class ServiceProvider extends BaseServiceProvider
+{
+    public function register()
+    {
+        $this->app->bind('pakdhe', function ($app) {
+            return new Pakdhe();
+        });
+    }
+
+    public function boot()
+    {
+        // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+    }
+}
